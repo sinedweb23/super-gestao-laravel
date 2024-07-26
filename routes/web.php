@@ -8,3 +8,5 @@ use App\Http\Controllers\SobreNosController;
 Route::get('/', [PrincipalController::class, 'principal']);
 Route::get('/contato', [ContatoController::class, 'contato']);
 Route::get('/sobrenos', [SobreNosController::class, 'sobrenos']);
+
+
