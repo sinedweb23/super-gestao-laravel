@@ -10,6 +10,7 @@ use App\Http\Controllers\FornecedoresController;
 
 Route::get('/', [PrincipalController::class, 'principal'])->name('site.index');
 Route::get('/contato', [ContatoController::class, 'contato'])->name('site.contato');
+Route::post('/contato', [ContatoController::class, 'contato'])->name('site.contato');
 Route::get('/sobrenos', [SobreNosController::class, 'sobrenos'])->name('site.sobrenos');
 Route::get ('/login', function(){return 'Login';})->name('site.login');
 
